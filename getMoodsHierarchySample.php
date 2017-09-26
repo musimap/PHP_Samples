@@ -42,4 +42,3 @@ $array = json_decode($response, true);
 
 // Print the response
 die( print_r($array, true) );
-

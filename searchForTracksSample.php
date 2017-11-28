@@ -25,7 +25,7 @@ $headers = [
 // Set some options
 curl_setopt_array($curl, [
     CURLOPT_RETURNTRANSFER => true,
-    CURLOPT_URL => 'https://api.musimap.net/tracks/search?limit=20&keywords[0][uid]=171C36F3-3E81-F4DA-3B90-AF1AE8DBC552&keywords[0][importance]=70',
+    CURLOPT_URL => 'https://api.musimap.net/tracks/search?limit=20&situations[0][uid]=562A3FCF-5C39-757A-1428-C5390123883E&situations[0][importance]=40',
     CURLOPT_USERAGENT => 'Musimap PHP Sample',
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_HTTPHEADER => $headers
